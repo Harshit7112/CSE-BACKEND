@@ -5,9 +5,10 @@ console.log(data);
 if(data.match("H"))
 {
     console.log("file contains h");
-   const newdata= data.replace("H","hahaha");
-    fs.writeFileSync("./data.txt",newdata,"utf-8");
+    const newdata=data.replace("H","hahaha");
+    fs.writeFileSync("./data.txt",newdata,"utf-8")
 }
+
 // fs.writeFileSync("./data1.txt","hello abes","utf-8");
 // fs.writeFileSync("./data1.txt","hello abesec,waow","utf-8");
 // fs.appendFileSync("./data1.txt","new append function ke through","utf-8");
